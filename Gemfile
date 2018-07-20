@@ -28,7 +28,8 @@ gem 'devise'
 gem 'high_voltage'
 gem 'jquery-rails'
 gem 'pundit'
-gem 'therubyracer', :platform=>:ruby
+# gem 'therubyracer', :platform=>:ruby
+gem 'mini_racer', platforms: :ruby
 group :development do
   gem 'better_errors'
   gem 'rails_layout'
