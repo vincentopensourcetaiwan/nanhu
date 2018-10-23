@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 2018_10_23_134618) do
   end
 
   create_table "registration_form_nikis", force: :cascade do |t|
+  create_table "registration_form_test_abcs", force: :cascade do |t|
     t.string "name"
     t.string "phone"
     t.datetime "created_at", null: false
@@ -27,6 +28,13 @@ ActiveRecord::Schema.define(version: 2018_10_23_134618) do
   end
 
   create_table "registration_forms", force: :cascade do |t|
+    t.string "name"
+    t.string "phone"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "registration_formtests", force: :cascade do |t|
     t.string "name"
     t.string "phone"
     t.datetime "created_at", null: false
