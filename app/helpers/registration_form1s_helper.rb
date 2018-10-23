@@ -1,0 +1,2 @@
+module RegistrationForm1sHelper
+end
