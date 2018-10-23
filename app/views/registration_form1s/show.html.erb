@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @registration_form1.name %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @registration_form1.phone %>
+</p>
+
+<%= link_to 'Edit', edit_registration_form1_path(@registration_form1) %> |
+<%= link_to 'Back', registration_form1s_path %>

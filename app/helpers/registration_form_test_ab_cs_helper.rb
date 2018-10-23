@@ -1,0 +1,2 @@
+module RegistrationFormTestAbCsHelper
+end

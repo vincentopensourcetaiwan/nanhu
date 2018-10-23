@@ -1,0 +1,1 @@
+json.partial! "registration_form_test_abcs/registration_form_test_abc", registration_form_test_abc: @registration_form_test_abc

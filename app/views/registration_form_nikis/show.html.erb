@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @registration_form_niki.name %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @registration_form_niki.phone %>
+</p>
+
+<%= link_to 'Edit', edit_registration_form_niki_path(@registration_form_niki) %> |
+<%= link_to 'Back', registration_form_nikis_path %>
